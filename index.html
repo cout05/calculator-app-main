@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body>
+    <main>
+      <div class="calculator">
+        <header>
+          <h1>Calc</h1>
+          <div class="theme">
+            <p class="theme_text">theme</p>
+            <div class="toggle_con">
+              <p class="numbers">1 <span>2</span> <span>3</span></p>
+              <div id="toggle">
+                <button type="button" id="toggle_button"></button>
+                <button type="button" id="toggle_button2"></button>
+                <button type="button" id="toggle_button3"></button>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="keypad">
+          <input type="text" value="399,981" id="display" />
+          <div id="buttons">
+            <div class="column">
+              <button type="submit" id="seven" class="number">7</button>
+              <button type="submit" id="eight" class="number">8</button>
+              <button type="submit" id="nine" class="number">9</button>
+              <button type="submit" id="delete" class="number">del</button>
+            </div>
+            <div class="column">
+              <button type="submit" id="four" class="number">4</button>
+              <button type="submit" id="five" class="number">5</button>
+              <button type="submit" id="six" class="number">6</button>
+              <button type="submit" id="plus" class="number">+</button>
+            </div>
+            <div class="column">
+              <button type="submit" id="three" class="number">3</button>
+              <button type="submit" id="two" class="number">2</button>
+              <button type="submit" id="one" class="number">1</button>
+              <button type="submit" id="minus" class="number">-</button>
+            </div>
+            <div class="column">
+              <button type="submit" id="dot" class="number">.</button>
+              <button type="submit" id="zero" class="number">0</button>
+              <button type="submit" id="divide" class="number">/</button>
+              <button type="submit" id="multiply" class="number">x</button>
+            </div>
+            <div class="column">
+              <button type="submit" id="reset" class="number">Reset</button>
+              <button type="submit" id="equals" class="number">=</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
